@@ -47,7 +47,7 @@ function Homepage(){
     return (
         <div className="relative scroll-smooth  min-h-screen flex flex-col lg:flex-row text-white p-6">
             <Left/>
-            <div className="grow lg:basis-[75%]">
+            <div className="grow lg:basis-[75%] lg:mt-10">
                 <h2 className='text-3xl font-bold mb-2 tracking-tight'>Projects.</h2>
                 <a>Take a look at some projects i've contributed/worked on.</a>
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-8">

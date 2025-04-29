@@ -75,7 +75,7 @@ function Experience(){
                                     <TimelineConnector />
                                     </TimelineSeparator>
                                 <TimelineContent>
-                                    <div className='bg-black/10 p-2 rounded-xl bg-card text-card-foreground shadow overflow-hidden border-0 shadow-soft hover:shadow-soft-lg transition-shadow'>
+                                    <div className='text-left bg-black/10 p-2 rounded-xl bg-card text-card-foreground shadow overflow-hidden border-0 shadow-soft hover:shadow-soft-lg transition-shadow'>
                                         <div class="h-1 w-full bg-gradient-to-r from-accent-blue/10 to-accent-blue/5"/>
                                         {value.Desc}
                                         <br/><br/>
@@ -94,7 +94,6 @@ function Experience(){
                                             }
                                         </SkillsDiv>
                                     </div>
-                                    
                                 </TimelineContent>
                                 
                             </TimelineItem>

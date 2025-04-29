@@ -32,7 +32,7 @@ function Homepage(){
                 </Widget>
 
                 <Widget className="flex flex-col py-6">
-                    <a className="font-semibold text-lg text-white">Technologies & Stack</a>
+                    <a className="font-semibold text-lg text-white">Toolkit</a>
                     <div className="w-[75%] flex flex-wrap gap-4 justify-center items-center py-4">
                         {Object.entries(Data.Stack).map(([key, value]) => (
                             <div key={key} className="flex flex-col items-center justify-center">

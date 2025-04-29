@@ -147,6 +147,13 @@ const Data = {
             Link : "https://github.com/bohraz/Arch",
             Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
         },
+        {
+            Title : "Anime Story",
+            Desc : "Anime  Story is a successful Roblox game that has almost 20 million experience. I developed on the dungeon system working with testers and exploiters.",
+            Img : "../../Public/Images/AnimeStoryBG.png",
+            Link : "https://www.roblox.com/games/9417197334",
+            Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
+        },
     ],
     Goals : [
         "Launch a fully polished portfolio website (already halfway there!)",
