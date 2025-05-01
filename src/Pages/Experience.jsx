@@ -89,7 +89,7 @@ function Experience(){
                                         <SkillsDiv>
                                             {
                                                 value.Skills.map((item, index) => (
-                                                    <li className='inline-flex items-center rounded-md border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground text-xs' key={index}>{item}</li>
+                                                    <li key={index} className='inline-flex items-center rounded-md border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground text-xs'>{item}</li>
                                                 ))
                                             }
                                         </SkillsDiv>

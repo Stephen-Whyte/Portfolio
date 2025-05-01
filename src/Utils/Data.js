@@ -29,35 +29,35 @@ const Data = {
     Stack : {
         Adobe : {
             Desc : "Test",
-            Img : "../../Public/Images/AdobeLogo.png",
+            Img : "/Images/AdobeLogo.png",
         },
         Bootstrap : {
             Desc : "Test",
-            Img : "../../Public/Images/Bootstrap.jpeg",
+            Img : "Images/Bootstrap.jpeg",
         },
         Excel : {
             Desc : "Test",
-            Img : "../../Public/Images/ExcelLogo.jpg",
+            Img : "Images/ExcelLogo.jpg",
         },
         Github : {
             Desc : "Test",
-            Img : "../../Public/Images/GithubLogo.png",
+            Img : "Images/GithubLogo.png",
         },
         Jira : {
             Desc : "Test",
-            Img : "../../Public/Images/JiraLogo.svg",
+            Img : "Images/JiraLogo.svg",
         },
         React : {
             Desc : "Test",
-            Img : "../../Public/Images/ReactLogo.png",
+            Img : "Images/ReactLogo.png",
         },
         ["Lua / LuaU"] : {
             Desc : "Test",
-            Img : "../../Public/Images/LuaLogo.png",
+            Img : "Images/LuaLogo.png",
         },
         VSC : {
             Desc : "Test",
-            Img : "../../Public/Images/VSCLogo.png",
+            Img : "Images/VSCLogo.png",
         }
 
     },
@@ -145,21 +145,21 @@ const Data = {
         {
             Title : "Weather Forecast App",
             Desc : "A basic weather forecast app that displays the current weather conditions for a given location. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
-            Img : "../../Public/Images/WeatherForecasterBG.png",
+            Img : "Images/WeatherForecasterBG.png",
             Link : "https://github.com/Sah31m/Weather-Forecast",
             Tools : ["Python", "GitHub", "Visual Studio Code", "OpenWeatherMap API", "TKinter"],
         },
         {
             Title : "Arch - Hierarchial State Machine",
             Desc : "Arch is a LuaU/Lua state machine library for Roblox that allows you to create hierarchical state machines for your game objects.",
-            Img : "../../Public/Images/StateMachingBG.png",
+            Img : "Images/StateMachingBG.png",
             Link : "https://github.com/bohraz/Arch",
             Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
         },
         {
             Title : "Anime Story",
             Desc : "Anime  Story is a successful Roblox game that has almost 20 million experience. I developed on the dungeon system working with testers and exploiters.",
-            Img : "../../Public/Images/AnimeStoryBG.png",
+            Img : "Images/AnimeStoryBG.png",
             Link : "https://www.roblox.com/games/9417197334",
             Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
         },
@@ -202,35 +202,35 @@ const Data = {
         {
             Title : "GCSE",
             Desc : "I have completed my GCSEs with a strong academic record, demonstrating a solid foundation in core subjects such as Mathematics, English, and Science.",
-            Img : "../../Public/Images/HPBG.jpg",
+            Img : "Images/HPBG.jpg",
             Date : "2014 - 2019",
             Link : "https://www.credly.com/badges/69214163-7a84-4838-8e28-99310400e845/linked_in_profile",
         },
         {
             Title : "A-Level",
             Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "../../Public/Images/HPBG.jpg",
+            Img : "Images/HPBG.jpg",
             Date : "2014 - 2019",
             Link : "https://www.credly.com/badges/0088816a-004f-4",
         },
         {
             Title : "A-Level",
             Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "../../Public/Images/HPBG.jpg",
+            Img : "Images/HPBG.jpg",
             Date : "2014 - 2019",
             Link : "https://www.credly.com/badges/0088816a-004f-4",
         },
         {
             Title : "A-Level",
             Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "../../Public/Images/HPBG.jpg",
+            Img : "Images/HPBG.jpg",
             Date : "2014 - 2019",
             Link : "https://www.credly.com/badges/0088816a-004f-4",
         },
         {
             Title : "A-Level",
             Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "../../Public/Images/HPBG.jpg",
+            Img : "Images/HPBG.jpg",
             Date : "2014 - 2019",
             Link : "https://www.credly.com/badges/0088816a-004f-4",
         }

@@ -4,6 +4,8 @@ import Widget from "../Components/Widget.jsx"
 import Data from "../Utils/Data.js"
 import Masonry from "@mui/lab/Masonry"
 
+var Base_URL = import.meta.env.BASE_URL;
+
 function Homepage(){
     return (
         <div className="relative scroll-smooth  min-h-screen flex flex-col lg:flex-row text-white p-6">
@@ -36,11 +38,11 @@ function Homepage(){
                     <div className="w-[75%] flex flex-wrap gap-4 justify-center items-center py-4">
                         {Object.entries(Data.Stack).map(([key, value]) => (
                             <div key={key} className="flex flex-col items-center justify-center">
-                            <img
-                                className="object-cover !m-0 !p-0 object-top rounded-full sm:h-20 sm:w-20 h-16 w-16 border-2 border-black relative transition duration-500 bg-white"
-                                src={value.Img}
-                            />
-                            <p className="text-center text-white">{key}</p>
+                                <img
+                                    className="object-cover !m-0 !p-0 object-top rounded-full sm:h-20 sm:w-20 h-16 w-16 border-2 border-black relative transition duration-500 bg-white"
+                                    src={Base_URL + value.Img}
+                                />
+                                <p className="text-center text-white">{key}</p>
                             </div>
                         ))}
                     </div>
@@ -61,7 +63,7 @@ function Homepage(){
                 <Widget 
                     className="justify-center text-2xl font-bold text-white flex flex-col py-6 min-h-[100px] "
                     style={{
-                        backgroundImage: "url('../../Public/Images/Experience.gif')",
+                        backgroundImage: "url('Images/Experience.gif')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
@@ -73,7 +75,7 @@ function Homepage(){
                 <Widget 
                     className="justify-center text-2xl font-bold text-white flex flex-col py-6 min-h-[100px] "
                     style={{
-                        backgroundImage: "url('../../Public/Images/Hobbies.gif')",
+                        backgroundImage: "url('Images/Hobbies.gif')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
