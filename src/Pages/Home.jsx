@@ -79,7 +79,7 @@ function Homepage(){
                         backgroundRepeat: "no-repeat",
                     }}
                 >
-                    <Link to="/Experience" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>Hobbies</Link>
+                    <Link to="/Hobbies" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>Hobbies</Link>
                 </Widget>
                 
                 <Widget className="flex flex-col py-6">

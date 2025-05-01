@@ -1,3 +1,5 @@
+import Certificates from "../Pages/Certificates";
+
 const Data = {
     About : "I’m Stephen Whyte — a passionate and self-driven software and game developer based in London, with hands-on experience in both creative and technical fields. With a strong foundation in programming and data, I’ve contributed to high-impact projects including Roblox games that have amassed over 250 million plays. I bring a unique blend of technical knowledge, leadership, and problem-solving skills gained from my work as a freelance developer, shadowing field engineers, and leading a team of 8+ developers at Divert Studios. My goal is to build engaging, scalable, and user-focused digital experiences, whether that’s in gaming, software development, or data-driven solutions.",
     Github : "https://github.com/Sah31m",
@@ -141,6 +143,13 @@ const Data = {
     ],
     Projects : [
         {
+            Title : "Weather Forecast App",
+            Desc : "A basic weather forecast app that displays the current weather conditions for a given location. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
+            Img : "../../Public/Images/WeatherForecasterBG.png",
+            Link : "https://github.com/Sah31m/Weather-Forecast",
+            Tools : ["Python", "GitHub", "Visual Studio Code", "OpenWeatherMap API", "TKinter"],
+        },
+        {
             Title : "Arch - Hierarchial State Machine",
             Desc : "Arch is a LuaU/Lua state machine library for Roblox that allows you to create hierarchical state machines for your game objects.",
             Img : "../../Public/Images/StateMachingBG.png",
@@ -184,6 +193,46 @@ const Data = {
         {
             Title : "Technician",
             Icon : "fa-solid fa-screwdriver-wrench",
+        }
+    ],
+    Hobbies : [
+
+    ],
+    Certificates : [
+        {
+            Title : "GCSE",
+            Desc : "I have completed my GCSEs with a strong academic record, demonstrating a solid foundation in core subjects such as Mathematics, English, and Science.",
+            Img : "../../Public/Images/HPBG.jpg",
+            Date : "2014 - 2019",
+            Link : "https://www.credly.com/badges/69214163-7a84-4838-8e28-99310400e845/linked_in_profile",
+        },
+        {
+            Title : "A-Level",
+            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
+            Img : "../../Public/Images/HPBG.jpg",
+            Date : "2014 - 2019",
+            Link : "https://www.credly.com/badges/0088816a-004f-4",
+        },
+        {
+            Title : "A-Level",
+            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
+            Img : "../../Public/Images/HPBG.jpg",
+            Date : "2014 - 2019",
+            Link : "https://www.credly.com/badges/0088816a-004f-4",
+        },
+        {
+            Title : "A-Level",
+            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
+            Img : "../../Public/Images/HPBG.jpg",
+            Date : "2014 - 2019",
+            Link : "https://www.credly.com/badges/0088816a-004f-4",
+        },
+        {
+            Title : "A-Level",
+            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
+            Img : "../../Public/Images/HPBG.jpg",
+            Date : "2014 - 2019",
+            Link : "https://www.credly.com/badges/0088816a-004f-4",
         }
     ]
 }
