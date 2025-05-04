@@ -1,7 +1,7 @@
-import Certificates from "../Pages/Certificates";
+var Base_URL = import.meta.env.BASE_URL;
 
 const Data = {
-    About : "I’m Stephen Whyte — a passionate and self-driven software and game developer based in London, with hands-on experience in both creative and technical fields. With a strong foundation in programming and data, I’ve contributed to high-impact projects including Roblox games that have amassed over 250 million plays. I bring a unique blend of technical knowledge, leadership, and problem-solving skills gained from my work as a freelance developer, shadowing field engineers, and leading a team of 8+ developers at Divert Studios. My goal is to build engaging, scalable, and user-focused digital experiences, whether that’s in gaming, software development, or data-driven solutions.",
+    About : "Tech professional skilled in programming, troubleshooting, analyst and support. Experienced in Hardware, network setup, and programming with a strong background in LUAU, Python, JavaScript and SQL. Adept at collaboration and dedicated to continuous learning, eager to contribute to innovative projects and teamsuccess.",
     Github : "https://github.com/Sah31m",
     LinkedIn : "https://www.linkedin.com/in/stephen-whyte-96501b236/",
     Email : "saheimwhyte@gmail.com",
@@ -145,21 +145,21 @@ const Data = {
         {
             Title : "Weather Forecast App",
             Desc : "A basic weather forecast app that displays the current weather conditions for a given location. The app uses the OpenWeatherMap API to fetch weather data and displays it in a user-friendly interface.",
-            Img : "Images/WeatherForecasterBG.png",
+            Img : Base_URL + "Images/WeatherForecasterBG.png",
             Link : "https://github.com/Sah31m/Weather-Forecast",
             Tools : ["Python", "GitHub", "Visual Studio Code", "OpenWeatherMap API", "TKinter"],
         },
         {
             Title : "Arch - Hierarchial State Machine",
             Desc : "Arch is a LuaU/Lua state machine library for Roblox that allows you to create hierarchical state machines for your game objects.",
-            Img : "Images/StateMachingBG.png",
+            Img : Base_URL + "Images/StateMachingBG.png",
             Link : "https://github.com/bohraz/Arch",
             Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
         },
         {
             Title : "Anime Story",
             Desc : "Anime  Story is a successful Roblox game that has almost 20 million experience. I developed on the dungeon system working with testers and exploiters.",
-            Img : "Images/AnimeStoryBG.png",
+            Img : Base_URL + "Images/AnimeStoryBG.png",
             Link : "https://www.roblox.com/games/9417197334",
             Tools : ["LuaU/Lua", "GitHub", "Visual Studio Code","Roblox Studio", "Discord", "Wally"],
         },
@@ -167,7 +167,8 @@ const Data = {
     Goals : [
         "Launch a fully polished portfolio website (already halfway there!)",
         "Learn one new major framework (e.g., Next.js, Three.js, Svelte).",
-        "Become proficient in my position for American Football."
+        "Become proficient in my position for American Football.",
+        "Secure a tech role to grow my skills."
     ],
     Services : [
         {
@@ -193,46 +194,127 @@ const Data = {
         {
             Title : "Technician",
             Icon : "fa-solid fa-screwdriver-wrench",
+        },
+        {
+            Title : "Helpdesk",
+            Icon : "fa-solid fa-headset",
         }
     ],
     Hobbies : [
-
+        {
+            Title : "American Football",
+            Desc : "I play Left Tackle for the London Blitz, where I’ve developed strength, discipline, and teamwork through competitive American Football. The role demands quick decision-making, communication, and consistent physical and mental growth.",
+            Img : Base_URL + "Images/AmericanFootball.jpeg",
+            Tools : [
+                "Teamwork",
+                "Communication",
+                "Decision Making",
+                "Coordination",
+                "Quick Thinking",
+                "Awareness",
+            ] 
+        },
+        {
+            Title : "Gaming",
+            Desc : "I enjoy gaming in my free time, especially playing Valorant and Madden. Valorant helps sharpen my reaction time, communication, and strategic thinking, while Madden deepens my understanding of football tactics and playcalling, complementing my real-life experience on the field.",
+            Img : Base_URL + "Images/GamingBG.jpg",
+            Tools : [
+                "Decision Making",
+                "Communication",
+                "Adaptability",
+                "Problem Solving",
+                "Teamwork",
+                "Critical Thinking",
+            ]
+        },
+        {
+            Title : "Game Development",
+            Desc : "In game development on Roblox, I leverage my creativity to design engaging experiences, using coding to bring interactive worlds and unique gameplay mechanics to life.",
+            Img : Base_URL + "Images/GameDevBG.webp",
+            Tools : [
+                "Collaboration",
+                "Problem Solving",
+                "Creativity",
+                "Adaptability",
+                "Attention to detail",
+                "Software Development",
+            ]
+        },
+        {
+            Title : "Cooking",
+            Desc : "I enjoy cooking as a creative and relaxing hobby. It allows me to experiment with new recipes, develop practical skills, and unwind while making meals from scratch. I especially enjoy cooking for friends and family.",
+            Img : Base_URL + "Images/CookingBG.jpg",
+            Tools : [
+                "Time-Management",
+                "Attention to detail",
+                "Creativity",
+                "Organisation",
+                "Problem Solving",
+            ]
+        },
+        {
+            Title : "PC Building",
+            Desc : "I have always been passionate about building and repairing computers. I enjoy learning about the latest hardware and software technologies and keeping up with the latest trends in the industry.",
+            Img : Base_URL + "Images/PCBuildingBG.webp",
+            Tools : [
+                "Hardware Knowledge",
+                "Problem Solving",
+                "Troubleshooting",
+                "Attention to detail",
+                "Technical Skills",
+                "Operating Systems",
+                "Networking"
+            ]
+        },
+        {
+            Title : "Basketball",
+            Desc : "I enjoy basketball and occasionally play casually with friends. I'm a fan of the Golden State Warriors and love watching their fast-paced, team-oriented style of play, which keeps me inspired and connected to the sport.",
+            Img : Base_URL + "Images/BasketballBG.webp",
+            Tools : [
+                "Teamwork",
+                "Communication",
+                "Coordination",
+                "Endurance",
+                "Problem Solving",
+                "Critical Thinking",
+            ]
+        },
+        {
+            Title : "Boxing",
+            Desc : "I’ve taken an interest in boxing as a way to stay fit and disciplined. It helps improve my coordination, endurance, and mental focus, while also providing a healthy outlet for stress and self-improvement.",
+            Img : Base_URL + "Images/BoxingBG.jpg",
+            Tools : [
+                "Teamwork",
+                "Communication",
+                "Coordination",
+                "Endurance",
+                "Problem Solving",
+                "Critical Thinking",
+            ]
+        }
     ],
     Certificates : [
         {
             Title : "GCSE",
             Desc : "I have completed my GCSEs with a strong academic record, demonstrating a solid foundation in core subjects such as Mathematics, English, and Science.",
-            Img : "Images/HPBG.jpg",
+            Img : Base_URL + "Images/Exams.jpg",
             Date : "2014 - 2019",
-            Link : "https://www.credly.com/badges/69214163-7a84-4838-8e28-99310400e845/linked_in_profile",
         },
         {
             Title : "A-Level",
             Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "Images/HPBG.jpg",
-            Date : "2014 - 2019",
-            Link : "https://www.credly.com/badges/0088816a-004f-4",
+            Img : Base_URL + "Images/Exams.jpg",
+            Date : "2019 - 2021",
         },
         {
-            Title : "A-Level",
-            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "Images/HPBG.jpg",
-            Date : "2014 - 2019",
-            Link : "https://www.credly.com/badges/0088816a-004f-4",
+            Title : "Internal Exclusions Prefect",
+            Desc : "I have been elected as an Internal Exclusions Prefect, demonstrating my leadership and commitment to the school community.",
+            Date : "2019 - 2021",
         },
         {
-            Title : "A-Level",
-            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "Images/HPBG.jpg",
-            Date : "2014 - 2019",
-            Link : "https://www.credly.com/badges/0088816a-004f-4",
-        },
-        {
-            Title : "A-Level",
-            Desc : "I have completed my A-Levels studies, achieving strong grades in Computer Science, Engineering & Business studies.",
-            Img : "Images/HPBG.jpg",
-            Date : "2014 - 2019",
-            Link : "https://www.credly.com/badges/0088816a-004f-4",
+            Title : "OpenEDG : Python Essentials 2",
+            Desc : "An advanced python course developing a stronger knowledge on OOP, Modules , libraries & problem solving.",
+            Date : "2023",
         }
     ]
 }

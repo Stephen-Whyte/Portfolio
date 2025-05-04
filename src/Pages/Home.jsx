@@ -16,10 +16,9 @@ function Homepage(){
                 defaultHeight={450}
                 defaultColumns={2}
                 defaultSpacing={1}
-                sequential
-                className="grow lg:basis-[75%]"
+                className="grow lg:basis-[75%] "
             >
-
+                
                 <Widget id="Project-Panel" className="col-span-1 lg:col-span-2 relative">
                     <video
                         className="h-[250px] w-full object-cover rounded-3xl"
@@ -50,7 +49,7 @@ function Homepage(){
                 
                 <Widget className="flex flex-col py-6 min-h-[100px]">
                     <Link to="/Services" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>
-                        {"<What I Offer/>"}
+                        {"</What I Offer>"}
                     </Link>
                 </Widget>
 
@@ -101,6 +100,18 @@ function Homepage(){
                             </label>
                         ))}
                     </div>
+                </Widget>
+                
+                <Widget 
+                    className="justify-center text-2xl font-bold text-white flex flex-col py-6 min-h-[100px] "
+                    style={{
+                        backgroundImage: "url('Images/Resume.gif')",
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                    }}
+                >
+                    <a href={Base_URL + "Documents/CV.pdf"} target="_blank" rel="noopener noreferrer" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>View my CV</a>
                 </Widget>
 
             </Masonry>

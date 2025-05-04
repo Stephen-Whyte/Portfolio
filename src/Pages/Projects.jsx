@@ -49,7 +49,7 @@ function Homepage(){
             <Left/>
             <div className="grow lg:basis-[75%] lg:mt-10">
                 <h2 className='text-3xl font-bold mb-2 tracking-tight'>Projects.</h2>
-                <a>Take a look at some projects i've contributed/worked on.</a>
+                <a>A collection of projects that demonstrate my creativity, technical expertise, and passion for innovation.</a>
                 <div className=" grid grid-cols-1 md:grid-cols-2 gap-8">
                     {
                         Object.entries(Data.Projects).map(([key, value]) => (
@@ -58,7 +58,6 @@ function Homepage(){
                     }
                 </div>
             </div>
-            
         </div>
     )
 };

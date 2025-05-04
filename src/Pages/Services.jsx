@@ -10,7 +10,8 @@ function Services(){
             <Left/>
             
             <div className="grow lg:basis-[75%] lg:mt-10">
-                <h2 className='text-3xl font-bold mb-2 tracking-tight '>What I offer.</h2>
+                <h2 className='text-3xl font-bold mb-2 tracking-tight '>What I Offer.</h2>
+                <a>Explore the different ways I can contribute to projects, bringing technical skill, creativity, and problem-solving to the table.</a>
                 <div className="grid grid-cols-3 gap-4">
                     {
                     Object.entries(Data.Services).map(([key, value]) => (
