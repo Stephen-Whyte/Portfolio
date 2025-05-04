@@ -8,7 +8,7 @@ var Base_URL = import.meta.env.BASE_URL;
 
 function Homepage(){
     return (
-        <div className="relative scroll-smooth  min-h-screen flex flex-col lg:flex-row text-white p-6">
+        <div className="relative scroll-smooth min-h-screen flex flex-col lg:flex-row text-white p-6">
             <Left/>
             <Masonry 
                 columns={2}
@@ -16,7 +16,7 @@ function Homepage(){
                 defaultHeight={450}
                 defaultColumns={2}
                 defaultSpacing={1}
-                className="grow lg:basis-[75%] "
+                className="grow-0 lg:basis-[75%] "
             >
                 
                 <Widget id="Project-Panel" className="col-span-1 lg:col-span-2 relative">
