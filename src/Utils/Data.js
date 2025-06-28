@@ -102,16 +102,16 @@ const Data = {
             ],
         },
         {
-            Position: "Trainee Support Officer",
+            Position: "IT Technician",
             Company: "J.R Quintess",
-            Date: "February 2020 - March 2021",
+            Date: "December 2019 - March 2020",
             Location: "London, UK",
-            Desc: "Monitored and optimized environmental performance metrics using EPA management systems, and advised on process improvements.",
-            Skills: ["EPA Systems", "Process Improvement", "Stakeholder Engagement", "Operational Efficiency"],
+            Desc: "Provided first-line support for a start up comany for haradware, software and helping maintain a running office and improving efficiency though process improvements.",
+            Skills: ["Troubleshooting", "Hardware", "Process Improvement", "Stakeholder Engagement", "Operational Efficiency", "Technical Support"],
             Achievements: [
-                "Achieved a 98% satisfaction rate in stakeholder feedback surveys.",
-                "Increased operational efficiency by 25% and reduced errors by 10%.",
-                "Provided actionable advice to enhance internal systems."
+                "Diagnosed and repaired PC and networking issues, ensuring 95% uptime during support shifts.",
+                "Provided first-line technical support to internal staff, resolving hardware and software issues.",
+                "Supported and advised on approaches to improve processes and systems, resulting in a 25% increase in operational efficiency and a 10% reduction in errors"
             ],
         },
         {
