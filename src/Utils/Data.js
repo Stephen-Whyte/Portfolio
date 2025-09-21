@@ -76,6 +76,19 @@ const Data = {
             ],
         },
         {
+            Position: "Assistant Field Engineer",
+            Company: "OpenReach & Private Hires",
+            Date: "March 2022 – October 2024",
+            Location: "London, UK",
+            Desc: "Shadowed a Senior Field Engineer, gaining hands-on experience in networking, infrastructure, and stakeholder management.",
+            Skills: ["Networking", "Infrastructure", "Stakeholder Communication", "Performance Testing"],
+            Achievements: [
+                "Assisted Senior Field Engineer, with installation and maintenance of networking infrastructure and hardware.",
+                "Rewired telecom post to support renovation.",
+                "Configured and tested a small network consisting of several telephones for a startup company."
+            ],
+        },
+        {
             Position: "Undergraduate Software Engineering BSc (Hons)",
             Company: "Nottingham Trent University",
             Date: "September 2021 - April 2022",
@@ -89,19 +102,6 @@ const Data = {
             ],
         },
         {
-            Position: "Shadowing Field Engineer",
-            Company: "Openreach / Private Hires",
-            Date: "May 2019 – August 2024",
-            Location: "London, UK",
-            Desc: "Shadowed a Senior Field Engineer, gaining hands-on experience in networking, infrastructure, and stakeholder management.",
-            Skills: ["Networking", "Infrastructure", "Stakeholder Communication", "Performance Testing"],
-            Achievements: [
-                "Achieved a 100% project delivery rate through efficient task management.",
-                "Enhanced network reliability via targeted performance testing.",
-                "Supported solutions implementation, improving workflow efficiency by 25%."
-            ],
-        },
-        {
             Position: "IT Technician",
             Company: "J.R Quintess",
             Date: "December 2019 - March 2020",
@@ -109,9 +109,9 @@ const Data = {
             Desc: "Provided first-line support for a start up comany for haradware, software and helping maintain a running office and improving efficiency though process improvements.",
             Skills: ["Troubleshooting", "Hardware", "Process Improvement", "Stakeholder Engagement", "Operational Efficiency", "Technical Support"],
             Achievements: [
-                "Diagnosed and repaired PC and networking issues, ensuring 95% uptime during support shifts.",
-                "Provided first-line technical support to internal staff, resolving hardware and software issues.",
-                "Supported and advised on approaches to improve processes and systems, resulting in a 25% increase in operational efficiency and a 10% reduction in errors"
+                "Resolved 5+ daily IT support tickets with a 95% first-time fix rate.",
+                "Provided first-line technical support to staff, resolving hardware and software issues.",
+                "Supported and advised on approaches to improve processes and systems, increasing operational efficiency and a 10% reduction in errors."
             ],
         },
         {
@@ -165,7 +165,6 @@ const Data = {
         },
     ],
     Goals : [
-        "Launch a fully polished portfolio website (already halfway there!)",
         "Learn one new major framework (e.g., Next.js, Three.js, Svelte).",
         "Become proficient in my position for American Football.",
         "Secure a tech role to grow my skills."
