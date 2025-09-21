@@ -111,7 +111,7 @@ function Homepage(){
                         backgroundRepeat: "no-repeat",
                     }}
                 >
-                    <a href={Base_URL + "Documents/CV.pdf"} target="_blank" rel="noopener noreferrer" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>View my CV</a>
+                    <a href={Base_URL + "Documents/Resume.pdf"} target="_blank" rel="noopener noreferrer" className='absolute inset-0 flex items-center justify-center font-semibold text-lg text-white'>View my CV</a>
                 </Widget>
 
             </Masonry>

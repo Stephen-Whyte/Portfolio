@@ -13,7 +13,7 @@ function Certificates(){
                 <h2 className='text-3xl font-bold mb-2 tracking-tight'>My CV.</h2>
                 <a>CV, Resume, whatever you call it just have a look.</a>
                 <iframe
-                    src = {Base_URL + "Documents/CV.pdf"}
+                    src = {Base_URL + "Documents/Resume.pdf"}
                     width="100%"
                     height="900px"
 
