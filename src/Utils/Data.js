@@ -91,7 +91,7 @@ const Data = {
         {
             Position: "Undergraduate Software Engineering BSc (Hons)",
             Company: "Nottingham Trent University",
-            Date: "September 2021 - April 2022",
+            Date: "September 2021 - February 2022",
             Location: "Nottingham, UK",
             Desc: "Studied key modules including Computer Science Programming, Systems Analysis, and Professional Development for Industry before choosing to leave in order to pursue full-time practical experience and real-world projects.",
             Skills: ["Python", "Systems Analysis", "Project Management", "Problem Solving", "Professional Development","Access"],
